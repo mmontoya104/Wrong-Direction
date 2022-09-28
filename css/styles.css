@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Permanent+Marker&display=swap');
+
+h1 {
+	font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
+	font-size: 120px;
+}
+
+p {
+	font-size: 64px;
+}
+
+body {
+	font-family: 'Handlee', cursive;
+}
+
+button {
+	font-family: 'Permanent Marker', cursive;
+}
+
+button {
+	font-size: 48px;
+}
+
+a {
+	font-size: 16px;
+}
