@@ -1,29 +1,298 @@
+/* fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Permanent+Marker&display=swap');
 
-h1 {
-	font-family: 'Permanent Marker', cursive;
+/*Variables*/
+
+:root {
+	--stk-primary: #000 ;
+	--stk-secondary: #fff ;
+	--stk-purple: #b105d6;
+	--stk-pink: #fa7be4;
+	--stk-blue: #16d0fe;
+	--stk-green: #16fea4;
 }
 
-h1 {
-	font-size: 120px;
-}
-
-p {
-	font-size: 64px;
-}
+/* Core Elements*/
 
 body {
 	font-family: 'Handlee', cursive;
 }
 
-button {
-	font-family: 'Permanent Marker', cursive;
+/* Navigation */
+
+nav {
+	position: absolute;
+	width: 100vw;
 }
 
-button {
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 2rem;
+	display: flex;
+}
+
+nav ul li {
+	margin-left: 9rem;
+	font-size: 32;
+} 
+
+nav ul li:first-child {
+	margin-left: 0rem;
+	margin-right: auto;
+} 
+
+nav ul li a {
+	text-decoration: none;
+	color: var(--stk-secondary);
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+}
+
+nav ul li a {
+	font-size: 16px;
+}
+
+nav ul li a img{
+	height: 145px;
+}
+
+/* Hero */
+
+section.hero button {
+	font-family: 'Permanent Marker', cursive;
 	font-size: 48px;
 }
 
-a {
-	font-size: 16px;
+section.hero {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(var(--stk-primary), rgba(0, 0, 0,0.68)), url("../images/keyboard.jpg");
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: var(--stk-secondary);
+}
+
+section.hero h1 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 120px;
+	margin: 0;
+	-webkit-text-stroke: 2px var(--stk-secondary);
+	-webkit-text-fill-color: var(--stk-pink);
+}
+
+section.hero p {
+	font-size: 58px;
+	margin-top: 1rem;
+	-webkit-text-stroke: 1px var(--stk-primary);
+	-webkit-text-fill-color: var(--stk-secondary);
+}
+
+/* Links that look like Buttons, but they're definetly not buttons */
+
+.btn {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 48px;
+	padding-top: 0.65rem;
+    padding-right: 2rem;
+    padding-bottom: 1.1rem;
+    padding-left: 2rem;
+	text-align: center;
+	border-radius: 2.1rem;
+	background: var(--stk-secondary);
+	border: var(--stk-pink);
+	border-style: solid;
+	border-width: 5px;
+	color: var(--stk-blue);
+	-webkit-text-stroke: 2px var(--stk-purple);
+	-webkit-text-fill-color: var(--stk-blue);
+	text-decoration: none;
+}
+
+.btn:hover {
+	text-decoration: underline;
+}
+
+/* Buy Merch */
+
+section.buymerch {
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: var(--stk-secondary);
+	background: linear-gradient(var(--stk-primary), var(--stk-green),var(--stk-primary))
+}
+
+section.buymerch img {
+	padding-top: 1.5rem;
+	padding-bottom: 2rem;
+}
+
+section.buymerch a.btn {
+	margin-bottom: 2.2rem;
+}
+
+
+section.buymerch button {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 48px;
+}
+
+.wd {
+font-family: 'Permanent Marker', cursive;
+	font-size: 120px;
+	margin: 0;
+	-webkit-text-stroke: 2px var(--stk-secondary);
+	-webkit-text-fill-color: var(--stk-pink);
+}
+
+/* Footer */
+
+footer{
+	position: absolute;
+	width: 100vw;
+	background-size: cover;
+	background-color: var(--stk-primary);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: var(--stk-secondary);
+}
+
+footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 2.5rem;
+	display: flex;
+	flex-direction: row;
+	height: 150;
+	position: relative;
+}
+
+footer ul li a{
+
+	margin-left: 5rem;
+	margin-right: 5rem;
+	display: flex;
+	flex-direction: row;
+	height: 150;
+	position: relative;
+	}
+
+/* about us */
+
+section.about button {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 48px;
+}
+
+section.about {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0,0.8), rgba(0, 0, 0,0.68)), url("../images/this-is-us-one.jpg");
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: var(--stk-secondary);
+}
+
+section.about h1 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 120px;
+	margin: 0;
+	-webkit-text-stroke: 2px var(--stk-secondary);
+	-webkit-text-fill-color: var(--stk-pink);
+}
+
+section.about p {
+	font-size: 58px;
+	margin-top: 1rem;
+	-webkit-text-stroke: 1px var(--stk-primary);
+	-webkit-text-fill-color: var(--stk-secondary);
+}
+
+/* Contact */
+section.about button {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 48px;
+}
+
+section.contact {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0,0.8), rgba(0, 0, 0,0.68)), url("../images/your-mail.jpg");
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: var(--stk-secondary);
+}
+
+section.contact h1 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 120px;
+	margin: 0;
+	-webkit-text-stroke: 2px var(--stk-secondary);
+	-webkit-text-fill-color: var(--stk-pink);
+}
+
+section.contact p {
+	font-size: 58px;
+	margin-top: 1rem;
+	-webkit-text-stroke: 1px var(--stk-primary);
+	-webkit-text-fill-color: var(--stk-secondary);
+}
+
+section table {
+	border: 1px solid #000;
+}
+
+section table td {
+	padding: 1rem;
+	border: 1px solid #000;
+}
+
+ /* Conatct/Email */
+
+section.et {
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(var(--stk-primary), var(--stk-green),var(--stk-primary))
+
+/* videos */
+
+section.videos {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(var(--stk-primary), rgba(0, 0, 0,0.68)), url("../images/this-is-us-two.jpg");
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: var(--stk-secondary);
+}
+
+	section.videos h1 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 120px;
+	margin: 0;
+	-webkit-text-stroke: 2px var(--stk-secondary);
+	-webkit-text-fill-color: var(--stk-pink);
 }
