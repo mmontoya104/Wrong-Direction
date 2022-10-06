@@ -274,6 +274,7 @@ section.et {
 	justify-content: center;
 	align-items: center;
 	background: linear-gradient(var(--stk-primary), var(--stk-green),var(--stk-primary))
+}
 
 /* videos */
 
@@ -289,7 +290,7 @@ section.videos {
 	color: var(--stk-secondary);
 }
 
-	section.videos h1 {
+section.videos h1 {
 	font-family: 'Permanent Marker', cursive;
 	font-size: 120px;
 	margin: 0;
