@@ -208,13 +208,14 @@ section.hero p {
 
 .subject {
 	font-family: 'Permanent Marker', cursive;
-	font-size: 4rem;
+	font-size: 12rem;
 	color: var(--stk-blue);
 	-webkit-text-stroke: 2px var(--stk-purple);
 	-webkit-text-fill-color: var(--stk-blue);
 	text-decoration: none;
 	text-align: center;
 }
+
 
 
 /* Links that look like Buttons, but they're definetly not buttons */
@@ -364,6 +365,16 @@ div.column p {
 		margin-top: 0rem;
 	}
 
+	div.column .subject {
+			font-family: 'Permanent Marker', cursive;
+		font-size: 12rem;
+		color: var(--stk-blue);
+		-webkit-text-stroke: 2px var(--stk-purple);
+		-webkit-text-fill-color: var(--stk-blue);
+		text-decoration: none;
+		text-align: center;
+	}
+
 	.j {
 		padding: 4rem;
 	}
@@ -490,6 +501,12 @@ section.et h2.subject {
 	margin-bottom: 0.5rem;
 	width: 100vw;
 	align-content: center;
+}
+
+@media screen and (max-width: 900px) {
+	section.et h2.subject{
+		font-size: 46px;
+	}
 }
 
 section.et table th {
