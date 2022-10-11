@@ -42,7 +42,7 @@ footer ul {
 	height: 150;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
 	footer ul {
 		margin-bottom: 0;
 		height: 60px;
@@ -63,7 +63,7 @@ footer ul li a{
 	right: auto;
 	}
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
 	footer ul li a{
 
 		display: flex;
@@ -116,7 +116,7 @@ nav ul li a {
 	font-size: 16px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
 	nav ul li a {
 		font-size: 0.6rem;
 		} 
@@ -126,14 +126,14 @@ nav ul li a img{
 	height: 145px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
 	nav ul li a img {
 		height: 100px;
 		} 
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
 	nav ul {
 		display: flex;
 		flex-direction: column;
@@ -167,7 +167,7 @@ section.hero {
 	text-align: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
 	section.hero {
 		background-position: center;
 	}
@@ -180,7 +180,7 @@ section.hero h1 {
 	-webkit-text-stroke: 2px var(--stk-secondary);
 	-webkit-text-fill-color: var(--stk-pink);
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
 	section.hero h1 {
 		font-size: 32px;
 		} 
@@ -194,7 +194,7 @@ section.hero p {
 	-webkit-text-fill-color: var(--stk-secondary);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
 	section.hero p {
 		font-size: 20px;
 		margin-top: 0.5rem;
@@ -239,7 +239,7 @@ section.hero p {
 	text-decoration: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
 	.btn {
 		font-family: 'Permanent Marker', cursive;
 	font-size: 19px;
@@ -280,7 +280,7 @@ section.buymerch a.btn {
 	margin-bottom: 4rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
 	section.buymerch img {
 		align-items: center ;
 	}
@@ -299,7 +299,7 @@ font-family: 'Permanent Marker', cursive;
 	-webkit-text-fill-color: var(--stk-pink);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
 	.wd {
 		font-size: 40px;
 		text-align: center;
@@ -336,7 +336,7 @@ div.column p {
 	-webkit-text-stroke: 0.1px var(--stk-primary)
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 900px) {
 	
 	.imageofj {
 		max-height: 585px;
@@ -430,7 +430,7 @@ section.about {
 	color: var(--stk-secondary);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
 	section.about {
 		background-position: center;
 	}
@@ -444,7 +444,7 @@ section.about h1 {
 	-webkit-text-fill-color: var(--stk-pink);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
 	section.about h1 {
 		font-size: 50px;
 	}
@@ -475,7 +475,7 @@ section.contact {
 	color: var(--stk-secondary);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
 	section.contact {
 		background-position: center;
 	}
@@ -489,7 +489,7 @@ section.contact h1 {
 	-webkit-text-fill-color: var(--stk-pink);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
 	section.contact h1 {
 		font-size: 46px;
 		} 
@@ -503,7 +503,7 @@ section.et h2.subject {
 	align-content: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
 	section.et h2.subject{
 		font-size: 46px;
 	}
@@ -518,7 +518,7 @@ section.et table th {
 	text-decoration: none;
 }  
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
 	section.et table th {
 		font-size: 1.5rem;
 		-webkit-text-stroke: 0.6px var(--stk-purple);
@@ -566,7 +566,7 @@ section.videos {
 	color: var(--stk-secondary);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
 	section.videos {
 		background-position: center;
 	}
@@ -585,7 +585,7 @@ iframe {
 	text-align: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
 	section.videos h1 {
 		font-size: 40px;
 		text-align: center;
